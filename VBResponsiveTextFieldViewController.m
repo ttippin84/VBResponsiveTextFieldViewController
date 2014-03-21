@@ -68,8 +68,8 @@
 {
     // Get a reference to the app's window through the app delegate
     
-    VBAppDelegate *appDelegate = (VBAppDelegate *)[[UIApplication sharedApplication] delegate];
-    UIView *windowView = appDelegate.window;
+    UIApplication *theApp = [UIApplication sharedApplication];
+    UIView *windowView = (UIView *)theApp.delegate.window;
     
     // Convert the lower point of the active UITextField to the window's coordinate system, and calculate the adjustments of the top level view to the desired position
     

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VBAppDelegate.h"
 
 @interface VBResponsiveTextFieldViewController : UIViewController
 
