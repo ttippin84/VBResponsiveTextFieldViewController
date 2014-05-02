@@ -6,7 +6,7 @@ A UIViewController subclass that won't let UITextFields be hidden by the keyboar
 Usage
 -----
 
-Subclass the VBResponsiveTextViewController for a view controller that will move it's top level view around so that the active UITextField being edited by the user is never hidden underneath the keyboard input. Simple as that.
+Subclass the VBResponsiveTextViewController for a view controller that will move it's top level view around so that the UITextField being edited by the user is never hidden underneath the keyboard. Simple as that.
 
 N.B.
 ----
