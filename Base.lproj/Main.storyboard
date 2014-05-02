@@ -29,7 +29,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldDidReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="1Cq-lk-oCF"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="PDr-MR-hPS"/>
                                 </connections>
                             </textField>
@@ -46,7 +45,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldDidReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="A58-zA-fD3"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="9Yz-eb-NIV"/>
                                 </connections>
                             </textField>
@@ -63,7 +61,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldDidReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="glo-y7-FBw"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="mUN-c2-XNR"/>
                                 </connections>
                             </textField>
@@ -73,7 +70,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldDidReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="Pdb-eF-1r5"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="s3U-WP-oWU"/>
                                 </connections>
                             </textField>
@@ -83,7 +79,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldDidReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="B3l-sE-lvL"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="kzO-Qf-ePB"/>
                                 </connections>
                             </textField>
