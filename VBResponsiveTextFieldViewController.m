@@ -37,6 +37,15 @@
                                              selector:@selector(keyboardWillHide:)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+                                               
+    // Set a method for UITextField didEndOnExit event to dismiss keyboard
+    
+    for (UIView *subview in self.view.subviews) {
+        if ([subview isKindOfClass:[UITextField class]]) {
+            UITextField *textField = (UITextField *)subview;
+            [textField addTarget:self action:@selector(textFieldDidReturn:) forControlEvents:UIControlEventEditingDidEndOnExit];
+        }
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
