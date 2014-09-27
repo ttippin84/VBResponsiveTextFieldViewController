@@ -3,7 +3,7 @@ VBResponsiveTextFieldViewController
 
 A UIViewController subclass that won't let UITextFields be hidden by the keyboard.
 
-Swift version can be found here: github.com/dsandor/VBResponsiveTextFieldViewController
+Swift version can be found here: (github.com/dsandor/VBResponsiveTextFieldViewController)
 
 Usage
 -----
